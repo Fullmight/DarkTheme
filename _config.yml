@@ -1,9 +1,9 @@
 title:             Fullpower Dev
 email:             yakri13@gmail.com
-description:       Learning Fullstack Web Developer
+description:       Learning Fullstack Web Development
 author: Cameron A. Pickerill-Trinitapoli (Fullmight)
 baseurl:           ""
-url:               "https://fullmight.github.io/"
+url:               "fullpowerdev.net"
 
 colors:
   black: #262626
@@ -23,3 +23,46 @@ plugins:
   - jekyll-paginate
   - jekyll-relative-links
 
+
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'fullpowerdev.net'
+  media: 'img/posts'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          label: "layout"
+          element: "text"
+          value: "post"
+      - name: "date"
+        field:
+          label: "date"
+          element: "text"
+          value: "CURRENT_DATETIME"
+      - name: "author"
+        field:
+          label: "author"
+          element: "text"
+          value: "Cameron P-T"
+      - name: "categories"
+        field:
+          label: "categories"
+          element: "text"
+          placeholder: "Enter categories"
+      - name: "excerpt"
+        field:
+          label: "excerpt"
+          element: "text"
+          placeholder: "Enter excerpt"
+      - name: "meta"
+        field:
+          label: "meta"
+          element: "text"
+          placeholder: "Enter metadata"
+      - name: "background"
+        label: "background"
+        element: "text"
+        placeholder: "'/img/bg-post.jpg'"
