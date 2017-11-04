@@ -3,7 +3,7 @@ layout: post
 date: '2017-11-04 15:13 -0700'
 author: Cameron P-T
 background: /img/bg-post.jpg
-published: false
+published: true
 ---
 ## A New Post
 
