@@ -66,4 +66,4 @@ prose:
         field:
           label: "background"
           element: "text"
-          placeholder: "/img/bg-post.jpg"
+          value: "/img/bg-post.jpg"
