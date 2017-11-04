@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 <p>
   I've finally got a dark theme going with Jekyll and a custom landing page. It really took me a helluva lot longer to get this site up and running than you might expect, but that was mostly because I stubbornly tried to work this in with rails for the heck of it.
