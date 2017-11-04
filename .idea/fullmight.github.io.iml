@@ -7,6 +7,22 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="jekyll-theme-clean-blog (v0.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/_site/img" />
+          <root url="file://$MODULE_DIR$/_site/2017" />
+          <root url="file://$MODULE_DIR$/_site/posts" />
+          <root url="file://$MODULE_DIR$/_site/assets" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/_site/img" />
+          <root url="file://$MODULE_DIR$/_site/2017" />
+          <root url="file://$MODULE_DIR$/_site/posts" />
+          <root url="file://$MODULE_DIR$/_site/assets" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.5.2, ruby-2.4.2-p198) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.0.pre.3, ruby-2.4.2-p198) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="colorator (v1.1.0, ruby-2.4.2-p198) [gem]" level="application" />

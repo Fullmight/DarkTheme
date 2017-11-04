@@ -63,6 +63,7 @@ prose:
           element: "text"
           placeholder: "Enter metadata"
       - name: "background"
-        label: "background"
-        element: "text"
-        placeholder: "'/img/bg-post.jpg'"
+        field:
+          label: "background"
+          element: "text"
+          placeholder: "'/img/bg-post.jpg'"
