@@ -1,15 +1,17 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
 
+html{
+  background: #080d13 !important;
+}
+
 
 .dark-theme {
   color: #cccccc;
 }
 
-.dark-theme-body {
-  background: #262626;
-  margin: 0;
-  font-family: 'Oswald';
+body {
+  background: #03080e //#050a10; //03080e
 }
 
 .dark-theme-p {
@@ -91,7 +93,7 @@
   padding-top: 2px;
   padding-bottom: 2px;
   color: #b3b3b3;
-  background-color: #1a1a1a;
+  background-color: #010407;
   text-align: center;
 }
 
