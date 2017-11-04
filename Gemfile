@@ -4,6 +4,7 @@ source "https://rubygems.org"
 gemspec
 
 gem "jekyll", "~> 3.6.0"
+gem 'jekyll-relative-links'
 #gem 'jekyll-theme-clean-blog'
 
 group :jekyll_plugins do

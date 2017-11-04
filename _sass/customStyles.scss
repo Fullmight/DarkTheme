@@ -1,14 +1,24 @@
 // Import Core Clean Blog SCSS
-@import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
-
-
 .dark-theme {
   color: #cccccc;
 }
 
-.dark-theme-body {
-  background: #262626;
+p {
+  color: #cccccc;
+
+}
+
+.html{
+  background: #262626 !important;
   margin: 0;
+  color: #cccccc;
+  font-family: 'Oswald';
+
+}
+
+.dark-theme-body {
+  background: #262626 !important;
+  color: #cccccc;
   font-family: 'Oswald';
 }
 
@@ -18,9 +28,11 @@
 }
 .parallax-container {
   position: fixed;
-  overflow: visible;
+  overflow-x: hidden;
   width: 100%;
   height: 850px;
+  margin:0 auto;
+  left: 0;
 }
 .parallax-layer {
   width: 100%;
@@ -43,26 +55,31 @@
   top: -100px;
   z-index: 5;
   background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/r6mNVaD_ieioax.png');
+
 }
 .layer-2 {
   top: -50px;
   z-index: 10;
   background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643492/iztRAQa_kwb46k.png');
+
 }
 .layer-3 {
   top: -10px;
   z-index: 15;
   background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/40gubB2_eodoqi.png');
+
 }
 .layer-4 {
   top: 65px;
   z-index: 20;
   background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/mTUq8lr_pl0vht.png');
+
 }
 .layer-5 {
   top: 150px;
   z-index: 25;
   background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/OCUzHbm_ftt3b9.png');
+
 }
 
 
@@ -72,16 +89,21 @@
   background: #262626;
   width: 100%;
   min-height: 1200px;
+  margin: 0;
+  overflow-x: hidden;
 }
 .content h1 {
   color: #fff;
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .first-body{
   padding-top: 20%;
+  margin:0 auto;
+  left: 0;
 }
 
 .footer {
@@ -93,6 +115,19 @@
   color: #b3b3b3;
   background-color: #1a1a1a;
   text-align: center;
+  overflow-x: hidden;
+}
+
+.header{
+  position: fixed;
+  width:100%;
+  top: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #b3b3b3;
+  background-color: #1a1a1a;
+  text-align: center;
+  z-index: 3;
 }
 
 .footer-padding{

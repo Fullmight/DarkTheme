@@ -5,6 +5,9 @@ author:
 baseurl:           ""
 url:               "https://fullmight.github.io/"
 
+colors:
+  black: #262626
+
 # Social Profiles
 twitter_username:
 github_username:   Fullmight
@@ -18,3 +21,5 @@ theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-relative-links
+
