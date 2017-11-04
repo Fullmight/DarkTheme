@@ -18,7 +18,7 @@ h6{
 }
 
 .html{
-  background: #262626 !important;
+  background: #03080e !important;
   margin: 0;
   color: #cccccc;
   font-family: 'Oswald';
@@ -26,7 +26,7 @@ h6{
 }
 
 .dark-theme-body {
-  background: #262626 !important;
+  background: #03080e !important;
   color: #cccccc;
   font-family: 'Oswald';
 }
@@ -56,46 +56,42 @@ h6{
 .layer-0 {
   top: 0;
   z-index: 5;
-  background: #262626 url('http://res.cloudinary.com/fullmight/image/upload/v1509643492/xVXOrsa_jbaown.png') no-repeat top 10px center;
+  background: #03080e url('https://i.imgur.com/7LbfS4C.png') no-repeat top 10px center;
   /* <!--background-size: 120px 138.5px;*/
   background-size: auto;
 }
 .layer-1 {
   top: -100px;
   z-index: 5;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/r6mNVaD_ieioax.png');
-
+  background-image: url('https://i.imgur.com/CFNkhWC.png');
 }
 .layer-2 {
   top: -50px;
   z-index: 10;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643492/iztRAQa_kwb46k.png');
-
+  background: url('https://i.imgur.com/BQQtGpZ.png') no-repeat top 200px center;
+  //background-image: url('https://i.imgur.com/BQQtGpZ.png');
 }
 .layer-3 {
   top: -10px;
   z-index: 15;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/40gubB2_eodoqi.png');
-
+  background-image: url('https://i.imgur.com/ALy6tfp.png');
 }
 .layer-4 {
   top: 65px;
   z-index: 20;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/mTUq8lr_pl0vht.png');
-
+  background-image: url('https://i.imgur.com/uXABMwx.png');
 }
 .layer-5 {
   top: 150px;
   z-index: 25;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/OCUzHbm_ftt3b9.png');
-
+  background-image: url('https://i.imgur.com/UyeZ0ZS.png');
 }
 
 
 .content {
   position: absolute;
   top: 640px;
-  background: #262626;
+  background: #03080e;
   width: 100%;
   min-height: 1200px;
   margin: 0;
