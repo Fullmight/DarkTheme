@@ -8,11 +8,12 @@
 <head class="dark-theme-body dark-theme">
 
 </html class="dark-theme-body dark-theme">
+    {% include head.html %}
 
 
 
-<div class="header"> <div><a href="{{ site.baseurl }}{% link blog.html %}">Continue to blog</a></a></div>
-    <div></div></div>
+<!--<div class="header"> <div><a href="{{ site.baseurl }}{% link blog.html %}">Continue to blog</a></a></div>
+    <div></div></div>-->
 <meta charset="utf-8">
 <title>Portfolio</title>
 
@@ -20,6 +21,7 @@
 <link rel="stylesheet" href="./assets/landing.css">
 </head>
 <body>
+{% include navbar.html %}
 
 <div class="parallax-container dark-theme dark-theme-body">
     <div class="parallax-layer layer-0" data-parallax-speed="0.05" data-max-scroll="565"></div>
@@ -31,11 +33,12 @@
 </div>
 
 <div class="content first-body">
-    <h1>About me</h1>
-    <img>
+    <h1 class="front-fix">About me</h1>
+    <!-- Place Logo or picture of self here. -->
+    <img class="logo-image center-block" src="http://res.cloudinary.com/fullmight/image/upload/v1509879107/SelfBW2_blz1nb.jpg">
     <h3 class="dark-theme-p dark-theme">Cameron A. Pickerill-Trinitapoli</h3>
-    <p class="dark-theme-p">I'm a programmer primarily with experience working in C# and the Unity3D game engine.
-    As well as some prior familiarity with C++ and Java. I'm currently honing my web development skills with ruby on rails,
+    <p class="dark-theme-p">I'm a programmer primarily with experience working in C# and the Unity3D game engine,
+    as well as some prior familiarity with C++ and Java. I'm currently honing my web development skills with ruby on rails,
     as well as HTML, CSS, and Javascript with the resources available through Free Code Camp as well as through my own projects.</p>
 </div>
 
@@ -44,8 +47,8 @@
 <link rel="stylesheet" href="{{"/assets/landing.css" | relative_url }}">
 
 </body>
-
+<!--
 <div class="footer"> <div><a href="{{ site.baseurl }}{% link about.html %}">About Me</a></a></div>
-    <div></div></div>
+    <div></div></div>-->
 
 </html>

@@ -32,21 +32,21 @@ prose:
   media: 'img/posts'
   metadata:
     _posts:
-    - name: "Title"
-      field:
-        label: "Title"
-        element: "text"
-        placeholder: "Your Post Title"
-    - name: "Subtitle"
-      field:
-        label: "Subtitle"
-        element: "text"
-        placeholder: "Subtitles here"
       - name: "layout"
         field:
           label: "layout"
           element: "text"
           value: "post"
+      - name: "Title"
+        field:
+          label: "Title"
+          element: "text"
+          placeholder: "Title"
+      - name: "Subtitle"
+        field:
+          label: "Subtitle"
+          element: "text"
+          placeholder: "Description"
       - name: "date"
         field:
           label: "date"

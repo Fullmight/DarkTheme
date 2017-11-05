@@ -88,6 +88,16 @@ h6{
 }
 
 
+.logo-image{
+  border-radius: 50%;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  border-color: #0f1824;
+  border-width: 5px;
+  border-style: solid;
+}
+
 .content {
   position: absolute;
   top: 640px;
@@ -137,4 +147,8 @@ h6{
 
 .footer-padding{
   padding-top: 5%;
+}
+
+.front-fix{
+  overflow: hidden;
 }
