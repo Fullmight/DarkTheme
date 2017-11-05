@@ -24,6 +24,9 @@ plugins:
   - jekyll-relative-links
 
 
+sass:
+    style: :compressed
+
 
 
 prose:

@@ -1,11 +1,12 @@
 // Import Core Clean Blog SCSS
 .dark-theme {
   color: #cccccc;
+  overflow-x: hidden !important;
 }
 
 p {
   color: #cccccc;
-
+  overflow-x: hidden !important;
 }
 
 h1,
@@ -15,6 +16,7 @@ h4,
 h5,
 h6{
   text-align: center;
+  overflow-x: hidden !important;
 }
 
 .html{
@@ -22,6 +24,7 @@ h6{
   margin: 0;
   color: #cccccc;
   font-family: 'Oswald';
+  overflow-x: hidden !important;
 
 }
 
@@ -29,19 +32,22 @@ h6{
   background: #03080e !important;
   color: #cccccc;
   font-family: 'Oswald';
+  overflow-x: hidden !important;
 }
 
 .dark-theme-p {
   padding-left: 20%;
   padding-right: 20%;
+  overflow-x: hidden !important;
 }
 .parallax-container {
   position: fixed;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   width: 100%;
   height: 850px;
   margin:0 auto;
   left: 0;
+
 }
 .parallax-layer {
   width: 100%;
@@ -52,6 +58,7 @@ h6{
   background-position: bottom center;
   background-repeat: repeat-x;
   background-size: 960px 253px;
+  overflow-x: hidden !important;
 }
 .layer-0 {
   top: 0;
@@ -103,22 +110,23 @@ h6{
   top: 640px;
   background: #03080e;
   width: 100%;
-  min-height: 1200px;
+  min-height: 1600px;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .content h1 {
   color: #fff;
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .first-body{
   padding-top: 20%;
   margin:0 auto;
   left: 0;
+  overflow-x: hidden !important;
 }
 
 .footer {
@@ -130,7 +138,7 @@ h6{
   color: #b3b3b3;
   background-color: #1a1a1a;
   text-align: center;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .header{
@@ -143,12 +151,42 @@ h6{
   background-color: #1a1a1a;
   text-align: center;
   z-index: 3;
+  overflow-x: hidden !important;
 }
 
 .footer-padding{
   padding-top: 5%;
+  overflow-x: hidden !important;
 }
 
 .front-fix{
-  overflow: hidden;
+  overflow-x: hidden !important;
+}
+
+.gen-align{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.little-extra-on-top {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-x: hidden !important;
+}
+.lot-extra-on-top {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  overflow-x: hidden !important;
+}
+
+.flexcontainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row; /* works with row or column */
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
