@@ -26,7 +26,7 @@ Scenes: Scenes are more of a construct in general game design than one with a sp
 
 Next let’s go over the different parts of the unity editor window. Note that 1 and 5 are both part of the toolbar, but have notably different function. Likewise, 7 and 8 are both part of the project window.
 
-![The Unity Editor](https://i.imgur.com/b7YmcQc.png)
+![The Unity Editor](http://res.cloudinary.com/fullmight/image/upload/v1509995685/b7YmcQc_jcoqsu.png){:class="img-responsive"}
 
 1. To the left we have the Grab, Move, Rotate, Scale, and Game Window Scale Slider buttons. The Grab button is unlike the others in that it is used to affect your view of the scene by clicking and dragging with the mouse to move your view. The other four tools are all used to affect objects in the active scene. The move tool can move game objects along their axis’ using the red, blue, and green axis arrows that appear when an object is selected. Likewise the rotate and scale tools can rotate and scale game objects using slightly different looking versions of the same axis arrows. The game window scale slider is somewhat different in that it scales objects in the x and y direction relative to your viewing window. In practice, only the move and rotate tools are commonly used.
 
@@ -57,7 +57,7 @@ Next let’s go over the different parts of the unity editor window. Note that 1
 That should give you a general understanding of the Unity3d UI layout. However there is one thing we need to cover in greater detail.
 
 
-![The Inspector](https://i.imgur.com/rtfUBbu.png)
+![The Inspector](http://res.cloudinary.com/fullmight/image/upload/v1509993284/rtfUBbu_fumgad.png){:class="img-responsive"}
 
 The Inspector is one of the most important parts of the unity GUI. The inspector window exposes a wide variety of basic attributes of unity game objects.
 
