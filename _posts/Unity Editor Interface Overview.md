@@ -1,12 +1,11 @@
 ---
 layout: post
+published: true
 date: '2017-11-06 08:28 -0800'
 author: Cameron P-T
 background: /img/bg-post.jpg
-published: true
-Title: Unity Editor Interface Overview
-categories: 'Unity3D, UI, Guide'
 ---
+
 Preface: This is an article I created for FreeCodeCamp guides while endevoring to contribute to hacktoberfest.
 
 ##  Introduction To The Unity Editor Interface.
