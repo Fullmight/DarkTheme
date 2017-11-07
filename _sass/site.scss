@@ -61,3 +61,25 @@ $dark:          $gray-800 !default;
 @import "_bootstrap";
 
 
+.thumbnail {
+  position:relative;
+  overflow:hidden;
+  //border: 0 none;
+  border-color: #0d0d0d;
+  background-color: #333333;
+}
+
+.caption {
+  position:absolute;
+  top:0;
+  right:0;
+  background-color: #333333;
+  width:100%;
+  height:100%;
+  padding:2%;
+  display: none;
+  text-align: left;
+  color:#cccccc !important;
+  z-index:2;
+}
+
