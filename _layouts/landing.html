@@ -5,10 +5,11 @@
 <link rel="stylesheet" href="{{"/assets/landing.css" | relative_url }}">
 <!--<link rel="stylesheet" href="{{"/assets/site.css" | relative_url }}">-->
 
+<html class="dark-theme-body dark-theme container">
 
 <head class="dark-theme-body dark-theme">
 
-</html class="dark-theme-body dark-theme container">
+
     {% include head.html %}
 
 
@@ -62,6 +63,45 @@
         </div>
     </div>
 
+    <div class="footer"> <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    {% if site.twitter_username %}
+                    <li class="list-inline-item">
+                        <a href="https://www.twitter.com/{{ site.twitter_username }}">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.facebook_username %}
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <li class="list-inline-item">
+                        <a href="https://github.com/{{ site.github_username }}">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+            </div>
+        </div>
+    </div></div>
 </div>
 
 
@@ -139,14 +179,18 @@
 
 
 
-
 <!-- ///////////////// -->
 <script src="./assets/parallax.js"></script>
 <link rel="stylesheet" href="{{"/assets/landing.css" | relative_url }}">
+
+
+
 {% include scripts.html %}
+
 </body>
-<!--
-<div class="footer"> <div><a href="{{ site.baseurl }}{% link about.html %}">About Me</a></a></div>
-    <div></div></div>-->
+
+
+
 
 </html>
+
