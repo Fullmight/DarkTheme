@@ -26,7 +26,7 @@ Scenes: Scenes are more of a construct in general game design than one with a sp
 
 Next let’s go over the different parts of the unity editor window. Note that 1 and 5 are both part of the toolbar, but have notably different function. Likewise, 7 and 8 are both part of the project window.
 
-![The Unity Editor](http://res.cloudinary.com/fullmight/image/upload/v1509995685/b7YmcQc_jcoqsu.png){:class="img-responsive"}
+![The Unity Editor](http://res.cloudinary.com/fullmight/image/upload/v1510015429/unityUI_m1vzdk.png){:class="img-responsive"}
 
 1. To the left we have the Grab, Move, Rotate, Scale, and Game Window Scale Slider buttons. The Grab button is unlike the others in that it is used to affect your view of the scene by clicking and dragging with the mouse to move your view. The other four tools are all used to affect objects in the active scene. The move tool can move game objects along their axis’ using the red, blue, and green axis arrows that appear when an object is selected. Likewise the rotate and scale tools can rotate and scale game objects using slightly different looking versions of the same axis arrows. The game window scale slider is somewhat different in that it scales objects in the x and y direction relative to your viewing window. In practice, only the move and rotate tools are commonly used.
 
