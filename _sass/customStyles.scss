@@ -1,11 +1,14 @@
 // Import Core Clean Blog SCSS
-$dark-theme4: #333333 !default;
-$dark-theme3: #262626 !default;
+$dark-theme3: #212121 !default;
+$dark-theme5: #333333 !default;
+$dark-theme4: #262626 !default;
 $dark-theme2: #1a1a1a !default;
 $dark-theme1: #0d0d0d !default;
 
+$dark-theme-test: #212121 !default;
+
 $dark-blue-theme1: #03080e !default;
-$white-text: #cccccc !default;
+$white-text: #e6e6e6 !default;
 
 .dark-theme {
   color: $white-text;
@@ -13,7 +16,7 @@ $white-text: #cccccc !default;
 }
 
 p {
-  color: #cccccc;
+  color: $white-text;
   overflow-x: hidden !important;
 }
 
@@ -28,7 +31,7 @@ h6{
 }
 
 .html{
-  background: $dark-theme2 !important;
+  background: $dark-blue-theme1 !important;
   margin: 0;
   color: $white-text;
   font-family: 'Oswald';
@@ -37,7 +40,7 @@ h6{
 }
 
 .dark-theme-body {
-  background: $dark-theme2 !important;
+  background: $dark-blue-theme1 !important;
   color: $white-text;
   font-family: 'Oswald';
   overflow-x: hidden !important;
@@ -71,35 +74,35 @@ h6{
 .layer-0 {
   top: 0;
   z-index: 5;
-  background: $dark-theme2 url('http://res.cloudinary.com/fullmight/image/upload/v1510014552/StarFieldProg6_qkwmkl.png') no-repeat top 10px center;
+  background: $dark-blue-theme1 url('http://res.cloudinary.com/fullmight/image/upload/v1510078096/StarFieldProg6_qpkf4m.png') no-repeat top 10px center;
   /* <!--background-size: 120px 138.5px;*/
   background-size: auto;
 }
 .layer-1 {
   top: -100px;
   z-index: 5;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1510014550/mountains2_vdtf0g.png');
+  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1510078097/mountains2_gjzpi9.png');
 }
 .layer-2 {
   top: -10px;
   z-index: 10;
-  background: url('http://res.cloudinary.com/fullmight/image/upload/v1509822437/BigHill1_rara7o.png') no-repeat top 200px center;
+  background: url('http://res.cloudinary.com/fullmight/image/upload/v1510078094/BigHill2_hgxhvc.png') no-repeat top 200px center;
   //background-image: url('https://i.imgur.com/BQQtGpZ.png');
 }
 .layer-3 {
   top: -10px;
   z-index: 15;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1510015104/smallhills2_noa4mx.png');
+  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1510078694/smallhills3_n2ascc.png');
 }
 .layer-4 {
   top: 70px;
   z-index: 20;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509822437/frontGrass_i4wmy6.png');
+  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1510078097/frontGrass2_nnwint.png');
 }
 .layer-5 {
   top: 140px;
   z-index: 25;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1510014890/backGrass2_prnivx.png');
+  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1510078789/backGrass2_lxpjb1.png');
 }
 
 
@@ -108,7 +111,7 @@ h6{
   width: 150px;
   display: block;
   margin: 0 auto;
-  border-color: $dark-theme4;
+  border-color: $dark-theme5;
   border-width: 8px;
   border-style: solid;
 }
@@ -116,7 +119,7 @@ h6{
 .content {
   position: absolute;
   top: 640px;
-  background: $dark-theme2;
+  background: $dark-theme3;
   width: 100%;
   min-height: 1600px;
   margin: 0;
