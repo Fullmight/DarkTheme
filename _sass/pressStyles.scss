@@ -1,11 +1,23 @@
-$theme1: #343434 !default;
-$theme2: #2D4059 !default;
-$theme3: #EA5455 !default;
-$theme5: #FDE9C9 !default;
-$theme4: #fef5e6 !default;
+$theme1: #303841 !default;
+$theme2: #4c5867 !default;
+$theme3: #00ADB5 !default;
+$theme5: #FF5722 !default;
+$theme4: #e6e6e6 !default;
 
 
 <!--
+
+//$theme1: #262526 !default;
+//$theme2: #404040 !default;
+//$theme5: #8C8979 !default;
+//$theme4: #F2F2F2 !default;
+//$theme3: #F60A20 !default;
+
+//$theme1: #343434 !default;
+//$theme2: #2D4059 !default;
+//$theme3: #EA5455 !default;
+//$theme5: #FDE9C9 !default;
+//$theme4: #fef5e6 !default;
 
 //$theme4: #2B2E4A !default;
 //$theme3: #E84545 !default;
@@ -478,4 +490,8 @@ main>footer p {
   //margin: 1px 1px 1px 1px;
   //margin-bottom: 3%;
   //background-color: $theme2;
+}
+
+.light-bg{
+  background-color: $theme3;
 }
