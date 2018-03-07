@@ -3,16 +3,19 @@
 <!DOCTYPE html>
 <script src="./assets/parallax.js"></script>
 <link rel="stylesheet" href="{{"/assets/landing.css" | relative_url }}">
+<!--<link rel="stylesheet" href="{{"/assets/site.css" | relative_url }}">-->
 
+<html class="dark-theme-body dark-theme container">
 
 <head class="dark-theme-body dark-theme">
 
-</html class="dark-theme-body dark-theme">
+
+    {% include head.html %}
 
 
 
-<div class="header"> <div><a href="{{ site.baseurl }}{% link blog.html %}">Continue to blog</a></a></div>
-    <div></div></div>
+<!--<div class="header"> <div><a href="{{ site.baseurl }}{% link blog.html %}">Continue to blog</a></a></div>
+    <div></div></div>-->
 <meta charset="utf-8">
 <title>Portfolio</title>
 
@@ -20,31 +23,218 @@
 <link rel="stylesheet" href="./assets/landing.css">
 </head>
 <body>
+{% include navbar.html %}
 
 <div class="parallax-container dark-theme dark-theme-body">
     <div class="parallax-layer layer-0" data-parallax-speed="0.05" data-max-scroll="565"></div>
-    <div class="parallax-layer layer-1" data-parallax-speed="0.1" data-max-scroll="565"></div>
-    <div class="parallax-layer layer-2" data-parallax-speed="0.3" data-max-scroll="565"></div>
-    <div class="parallax-layer layer-3" data-parallax-speed="0.5" data-max-scroll="565"></div>
+    <div class="parallax-layer layer-1" data-parallax-speed="0.20" data-max-scroll="565"></div>
+    <div class="parallax-layer layer-2" data-parallax-speed="0.30" data-max-scroll="565"></div>
+    <div class="parallax-layer layer-3" data-parallax-speed="0.55" data-max-scroll="565"></div>
     <div class="parallax-layer layer-4" data-parallax-speed="0.7" data-max-scroll="565"></div>
-    <div class="parallax-layer layer-5" data-parallax-speed="0.9" data-max-scroll="565"></div>
+    <div class="parallax-layer layer-5" data-parallax-speed="0.95" data-max-scroll="565"></div>
 </div>
 
-<div class="content first-body">
-    <h1>About me</h1>
-    <h3>Cameron A. Pickerill-Trinitapoli</h3>
-    <p class="dark-theme-p">I'm a programmer primarily with experience working in C# and the Unity3D game engine.
-    As well as some prior familiarity with C++ and Java. I'm currently honing my web development skills with ruby on rails,
+<div class="content first-body front-fix">
+    <h1 class="front-fix little-extra-on-top">About me</h1>
+    <!-- Place Logo or picture of self here. -->
+    <img class="logo-image center-block front-fix" src="http://res.cloudinary.com/fullmight/image/upload/v1509879107/SelfBW2_blz1nb.jpg">
+    <h3 class="dark-theme-p dark-theme front-fix">Cameron A. Pickerill-Trinitapoli</h3>
+    <p class="dark-theme-p front-fix">I'm a programmer primarily with experience working in C# and the Unity3D game engine,
+    as well as some prior familiarity with C++ and Java. I'm currently honing my web development skills with ruby on rails,
     as well as HTML, CSS, and Javascript with the resources available through Free Code Camp as well as through my own projects.</p>
+
+    <h1 class="front-fix lot-extra-on-top">Portfolio</h1>
+    <div class="container gen-align center-block front-fix">
+        <div class="row imagetiles gen-align flexcontainer front-fix">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="thumbnail">
+                    <a href="https://codepen.io/fullmight/full/MEVGgW" class="">
+                        <div class="caption">
+                            <h4 class="">Tribute Page</h4>
+                            <p class="">
+                                Tribute page created as part of FreeCodeCamp.
+                            </p>
+                        </div>
+                        <img src=http://res.cloudinary.com/fullmight/image/upload/v1509888890/TributePageThumb_iqeodg.png alt="..." class="img-responsive center-block">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="thumbnail">
+                    <a href="http://www.fullpowerdev.net"  class="" target="_blank">
+                        <div class="caption">
+                            <h4 class="">Portfolio</h4>
+                            <p class="">
+                                My personal website and attached blog.
+                            </p>
+                        </div>
+                        <img src=http://res.cloudinary.com/fullmight/image/upload/v1509889277/PortfolioPageThumb_rf6kdw.png alt="..." class="img-responsive center-block">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row imagetiles gen-align flexcontainer front-fix">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="thumbnail">
+                    <a href="https://codepen.io/fullmight/full/GOQGRM" class="">
+                        <div class="caption">
+                            <h4 class="">Quote Machine</h4>
+                            <p class="">
+                                Simple random quote generator using external API
+                                with randomized color schemes.
+                            </p>
+                        </div>
+                        <img src=http://res.cloudinary.com/fullmight/image/upload/v1511214139/QuoteMachineThumb_o4acuj.png alt="..." class="img-responsive center-block">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="thumbnail">
+                    <a href="https://codepen.io/fullmight/full/LeLyZZ" class="">
+                        <div class="caption">
+                            <h4 class="">Weather Machine Webapp</h4>
+                            <p class="">
+                                A simple website to display weather in the users location using browser location data; does not work on all browsers
+                                and requires location information to be allowed.
+                            </p>
+                        </div>
+                        <img src=http://res.cloudinary.com/fullmight/image/upload/v1514894968/weatherApp_oihuq6.jpg alt="..." class="img-responsive center-block">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AR9oAKqqcXM" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+
+    <div class="footer"> <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    {% if site.twitter_username %}
+                    <li class="list-inline-item">
+                        <a href="https://www.twitter.com/{{ site.twitter_username }}">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.facebook_username %}
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <li class="list-inline-item">
+                        <a href="https://github.com/{{ site.github_username }}">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+            </div>
+        </div>
+    </div></div>
 </div>
 
 
+<!--
+
+</div>
+    <div id="card2" class="card">
+        <div class="content">
+            <h1>Basic Front End Projects</h1>
+            <p>These web apps use a variety of APIs along with front end frameworks like Bootstrap and Foundation and liberal use of jQuery.</p>
+            <div class="app-block center clickable">
+                <a href="https://codepen.io/denmch/full/KpjYVM" target="_blank">
+                    <div class="app" style="background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82724/portfolio.jpg) center; background-size: cover;">
+          <span class="title"><span>Personal Portfolio Webpage</span>
+          </span>
+                    </div>
+                    <!--
+                  <img class="app" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82724/portfolio.jpg" alt="Portfolio" title="Portfolio">
+                    -->
+    <!--
+                </a>
+                <a href="https://codepen.io/denmch/full/VLQMwy" target="_blank">
+                    <div class="app" style="background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82724/random-quote-app.jpg) center; background-size: cover;">
+          <span class="title"><span>Random Quote Machine</span>
+          </span>
+                    </div>
+                    <!--
+                    <img class="app" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82724/random-quote-app.jpg" alt="Random Quote Generator" title="Random Quote Generator">
+                     -->
+    <!--
+                </a>
+                <a href="https://codepen.io/denmch/full/BNVraG" target="_blank">
+                    <div class="app" style="background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82724/pomodoro-app.jpg) center; background-size: cover;">
+          <span class="title"><span>Pomodoro Clock</span>
+          </span>
+                    </div>
+                    <!--
+                    <img class="app" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82724/pomodoro-app.jpg" alt="Pomodoro Timer app" title="Pomodoro Timer app">
+                    -->
+    <!--
+                </a>
+                <a href="https://codepen.io/denmch/full/medeqw" target="_blank">
+                    <div class="app" style="background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82724/calc.jpg) center; background-size: cover;">
+          <span class="title"><span>Javascript Calculator</span>
+          </span>
+                    </div>
+                    <!--
+                    <img class="app" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82724/calc.jpg" alt="Calculator app" title="Calculator app">
+                     -->
+    <!--
+                </a>
+            </div>
+        </div>
+    </div>
+-->
+<!-- Can add in a heading before the grid.
+ Copy past this section with different content for more grids.
+ Page length may need extension-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ///////////////// -->
 <script src="./assets/parallax.js"></script>
 <link rel="stylesheet" href="{{"/assets/landing.css" | relative_url }}">
 
+
+
+{% include scripts.html %}
+
 </body>
 
-<div class="footer"> <div><a href="{{ site.baseurl }}{% link about.html %}">About Me</a></a></div>
-    <div></div></div>
+
+
 
 </html>
+

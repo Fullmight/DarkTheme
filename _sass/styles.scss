@@ -1,100 +1,16 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
 
+html{
+  background: #222831; //$dark-theme3 !important;//#080d13 !important;
+}
+
 
 .dark-theme {
-  color: #cccccc;
+  color: #e6e6e6;
 }
 
-.dark-theme-body {
-  background: #262626;
-  margin: 0;
-  font-family: 'Oswald';
+body {
+  background: #222831; //$dark-theme3;//#03080e //#050a10; //03080e
 }
 
-.dark-theme-p {
-  padding-left: 20%;
-  padding-right: 20%;
-}
-.parallax-container {
-  position: fixed;
-  overflow: visible;
-  width: 100%;
-  height: 850px;
-}
-.parallax-layer {
-  width: 100%;
-  height: 500px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-position: bottom center;
-  background-repeat: repeat-x;
-  background-size: 960px 253px;
-}
-.layer-0 {
-  top: 0;
-  z-index: 5;
-  background: #262626 url('http://res.cloudinary.com/fullmight/image/upload/v1509643492/xVXOrsa_jbaown.png') no-repeat top 10px center;
-  /* <!--background-size: 120px 138.5px;*/
-  background-size: auto;
-}
-.layer-1 {
-  top: -100px;
-  z-index: 5;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/r6mNVaD_ieioax.png');
-}
-.layer-2 {
-  top: -50px;
-  z-index: 10;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643492/iztRAQa_kwb46k.png');
-}
-.layer-3 {
-  top: -10px;
-  z-index: 15;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/40gubB2_eodoqi.png');
-}
-.layer-4 {
-  top: 65px;
-  z-index: 20;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/mTUq8lr_pl0vht.png');
-}
-.layer-5 {
-  top: 150px;
-  z-index: 25;
-  background-image: url('http://res.cloudinary.com/fullmight/image/upload/v1509643493/OCUzHbm_ftt3b9.png');
-}
-
-
-.content {
-  position: absolute;
-  top: 640px;
-  background: #262626;
-  width: 100%;
-  min-height: 1200px;
-}
-.content h1 {
-  color: #fff;
-  font-size: 2em;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.first-body{
-  padding-top: 20%;
-}
-
-.footer {
-  position: fixed;
-  width:100%;
-  bottom: 0;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  color: #b3b3b3;
-  background-color: #1a1a1a;
-  text-align: center;
-}
-
-.footer-padding{
-  padding-top: 5%;
-}

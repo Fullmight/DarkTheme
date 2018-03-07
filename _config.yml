@@ -1,16 +1,16 @@
-title:             The Smallest Scratch
+title:             Fullpower Dev
 email:             yakri13@gmail.com
-description:        Excessive Minutiae
-author: Cameron A. Pickerill-Trinitapoli (fullmight)
+description:       Learning Fullstack Web Development
+author: Cameron A. Pickerill-Trinitapoli (Fullmight)
 baseurl:           ""
-url:               "https://fullmight.github.io/"
+url:               "fullpowerdev.net"
 
 colors:
   black: #262626
 
 # Social Profiles
 twitter_username: fullmight307
-github_username:   Fullmight
+github_username: Fullmight
 facebook_username:
 
 # Build settings
@@ -23,3 +23,60 @@ plugins:
   - jekyll-paginate
   - jekyll-relative-links
 
+
+sass:
+    style: :compressed
+
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'fullpowerdev.net'
+  media: 'img/posts'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          label: "layout"
+          element: "text"
+          value: "post"
+      - name: "Title"
+        field:
+          label: "Title"
+          element: "text"
+          placeholder: "Title"
+      - name: "Subtitle"
+        field:
+          label: "Subtitle"
+          element: "text"
+          placeholder: "Description"
+      - name: "date"
+        field:
+          label: "date"
+          element: "text"
+          value: "CURRENT_DATETIME"
+      - name: "author"
+        field:
+          label: "author"
+          element: "text"
+          value: "Cameron P-T"
+      - name: "categories"
+        field:
+          label: "categories"
+          element: "text"
+          placeholder: "Enter categories"
+      - name: "excerpt"
+        field:
+          label: "excerpt"
+          element: "text"
+          placeholder: "Enter excerpt"
+      - name: "meta"
+        field:
+          label: "meta"
+          element: "text"
+          placeholder: "Enter metadata"
+      - name: "background"
+        field:
+          label: "background"
+          element: "text"
+          value: "/img/bg-post.jpg"
