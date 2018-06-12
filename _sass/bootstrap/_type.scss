@@ -136,8 +136,9 @@ mark,
 // -------------------------
 
 .page-header {
-  padding-bottom: (($line-height-computed / 2) - 1) + 5px;
-  margin: ($line-height-computed * 2 + 5px) 0 $line-height-computed;
+  padding-bottom: (($line-height-computed / 2) - 1) + 15px;
+  padding-top: 15px;
+  margin: ($line-height-computed * 2 + 15px) 0 $line-height-computed;
   border-bottom: 1px solid $page-header-border-color;
 }
 
